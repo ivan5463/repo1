@@ -1,0 +1,76 @@
+2018-04-10T17:19:01 : Verbose : Visual Studio Installer (1.14.167.122 : update5) ["C:\\program files (x86)\\microsoft visual studio\\installer\\vs_installershell.exe","modify","--installPath","C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community","--activityId","71d9ac59-1b44-4fe1-9ae2-7185bd922fc7"]
+2018-04-10T17:19:08 : Verbose : Creating VS Telemetry Survey
+2018-04-10T17:19:10 : Verbose : Received the application ready notification
+2018-04-10T17:19:10 : Verbose : LoggerIpcRpcService listening to ipc channel: LoggerService
+2018-04-10T17:19:10 : Verbose : FeaturesIpcRpcService listening to ipc channel: FeaturesProxy
+2018-04-10T17:19:10 : Verbose : Telemetry Session ID: 76948cfd-e611-43e8-8e26-369843bf3bc0
+2018-04-10T17:19:10 : Verbose : Service creation finished
+2018-04-10T17:19:10 : Verbose : Starting ServiceHub Remote Settings client.
+2018-04-10T17:19:13 : Verbose : Calling RemoteSettingsProviderService.Initialize(remoteSettingsFileName)clientName: vs-xsetup, clientVersion: 1.14.167.122, remoteSettingsFileName: RemoteSettings_Installer.json, serializedTelemetrySession: {"IsOptedIn":false,"Id":"76948cfd-e611-43e8-8e26-369843bf3bc0","HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"aif-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","ProcessStartTime":636589703486220000}
+2018-04-10T17:19:13 : Verbose : ServiceHub Remote Settings client started.
+2018-04-10T17:19:13 : Verbose : Calling RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: ErrorSurvey, defaultValue: false
+2018-04-10T17:19:13 : Verbose : Connected to Hub Controller's client watch 'net.pipe://17f9107cb24ee0172bb532fca70512d1'
+2018-04-10T17:19:14 : Verbose : Calling RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: ErrorSurvey, defaultValue: false
+2018-04-10T17:19:14 : Verbose : Calling RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: LaunchChkOn, defaultValue: false
+2018-04-10T17:19:14 : Verbose : Calling RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: LaunchChkOff, defaultValue: false
+2018-04-10T17:19:14 : Verbose : Calling RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: RecommendSel, defaultValue: false
+2018-04-10T17:19:14 : Verbose : Calling RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: SortWklds, defaultValue: false
+2018-04-10T17:19:14 : Verbose : Calling RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: RecWklds, defaultValue: false
+2018-04-10T17:19:14 : Verbose : Calling RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: CloudFirstDesc, defaultValue: false
+2018-04-10T17:19:14 : Verbose : Calling RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: CloudNativeDesc, defaultValue: false
+2018-04-10T17:19:14 : Verbose : ServiceHubExperimentationClient.setSharedProperty(name, value) called,
+ [name: VS.ABExp.Flights] [value: lazytoolboxinit;fwlargebuffer;refactoring;spmoretempsbtn1;asloff;tn-nps-15b;vswlaunchchkon;vswrecommendsel;tn-vsmacnps-7]
+2018-04-10T17:19:14 : Verbose : Resolved RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: ErrorSurvey, defaultValue: false, result: true
+2018-04-10T17:19:14 : Verbose : Resolved RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: ErrorSurvey, defaultValue: false, result: true
+2018-04-10T17:19:14 : Verbose : ServiceHubExperimentationClient.postEvent(name, properties) called.
+ [name: VS/ABExp/FlightRequest] [properties: {"VS.ABExp.Flight":"vswlaunchchkoff","VS.ABExp.Result":"False"}]
+2018-04-10T17:19:14 : Verbose : ServiceHubExperimentationClient.postEvent(name, properties) called.
+ [name: VS/ABExp/FlightRequest] [properties: {"VS.ABExp.Flight":"vswsortwklds","VS.ABExp.Result":"False"}]
+2018-04-10T17:19:14 : Verbose : ServiceHubExperimentationClient.postEvent(name, properties) called.
+ [name: VS/ABExp/FlightRequest] [properties: {"VS.ABExp.Flight":"vswlaunchchkon","VS.ABExp.Result":"True"}]
+2018-04-10T17:19:14 : Verbose : ServiceHubExperimentationClient.postEvent(name, properties) called.
+ [name: VS/ABExp/FlightRequest] [properties: {"VS.ABExp.Flight":"vswrecommendsel","VS.ABExp.Result":"True"}]
+2018-04-10T17:19:14 : Verbose : Resolved RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: LaunchChkOff, defaultValue: false, result: false
+2018-04-10T17:19:14 : Verbose : ServiceHubExperimentationClient.postEvent(name, properties) called.
+ [name: VS/ABExp/FlightRequest] [properties: {"VS.ABExp.Flight":"vswrecwklds","VS.ABExp.Result":"False"}]
+2018-04-10T17:19:14 : Verbose : Resolved RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: RecWklds, defaultValue: false, result: false
+2018-04-10T17:19:14 : Verbose : ServiceHubExperimentationClient.postEvent(name, properties) called.
+ [name: VS/ABExp/FlightRequest] [properties: {"VS.ABExp.Flight":"vswcloudfirstdesc","VS.ABExp.Result":"False"}]
+2018-04-10T17:19:14 : Verbose : Resolved RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: CloudFirstDesc, defaultValue: false, result: false
+2018-04-10T17:19:14 : Verbose : ServiceHubExperimentationClient.postEvent(name, properties) called.
+ [name: VS/ABExp/FlightRequest] [properties: {"VS.ABExp.Flight":"vswcloudnativedesc","VS.ABExp.Result":"False"}]
+2018-04-10T17:19:14 : Verbose : Resolved RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: CloudNativeDesc, defaultValue: false, result: false
+2018-04-10T17:19:14 : Verbose : Resolved RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: SortWklds, defaultValue: false, result: false
+2018-04-10T17:19:14 : Verbose : Resolved RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: RecommendSel, defaultValue: false, result: true
+2018-04-10T17:19:14 : Verbose : Resolved RemoteSettingsProviderService.GetBooleanValue(collectionPath, key, defaultValue) collectionPath: Installer\Features\, key: LaunchChkOn, defaultValue: false, result: true
+2018-04-10T17:19:15 : Verbose : ServiceHubExperimentationClient.setSharedProperty(name, value) called,
+ [name: VS.ABExp.Flights] [value: lazytoolboxinit;fwlargebuffer;refactoring;spmoretempsbtn1;asloff;tn-none-14u3;preupdatepron1-exp;tn-nps-15b;vswlaunchchkon;vswrecommendsel;tn-vsmacnps-7;lut-int-control;testadaptr-int-promo]
+2018-04-10T17:19:17 : Verbose : Window ready
+2018-04-10T17:19:17 : Verbose : Getting installed product summaries. [installerId: SetupEngine]
+2018-04-10T17:19:17 : Verbose : Starting the installed products provider service.
+2018-04-10T17:19:17 : Verbose : Starting the products provider service.
+2018-04-10T17:19:17 : Verbose : Getting product summaries. [installerId: SetupEngine]
+2018-04-10T17:19:17 : Verbose : Starting the installer service.
+2018-04-10T17:19:17 : Verbose : Calling SetupEngine.Installer.Initialize. [locale: es-ES]
+2018-04-10T17:19:17 : Verbose : SetupEngine.Installer.Initialize succeeded. [locale: es-ES]
+2018-04-10T17:19:17 : Verbose : Started the installer service.
+2018-04-10T17:19:17 : Verbose : Calling SetupEngine.Installer.IsElevated.
+2018-04-10T17:19:17 : Verbose : SetupEngine.Installer.IsElevated succeeded.
+2018-04-10T17:19:19 : Verbose : Closing installer. Return code: 0.
+2018-04-10T17:19:19 : Verbose : Started the products provider service.
+2018-04-10T17:19:20 : Verbose : The installer has an update required
+2018-04-10T17:19:20 : Verbose : Preparing to perform the update
+2018-04-10T17:19:20 : Verbose : Starting the setup updater service.
+2018-04-10T17:19:20 : Error : Failed to get product summaries. [installerId: SetupEngine, error: Es necesario actualizar Instalador de Visual Studio para continuar. at Error: Es necesario actualizar Instalador de Visual Studio para continuar.
+    at Object.installerErrorFromSetupEngine (C:\program files (x86)\microsoft visual studio\installer\resources\app\lib\Installer\Adapters\SetupEngineTypeConverter.js:370:20)
+    at SetupEngineAdapter.handleServiceError (C:\program files (x86)\microsoft visual studio\installer\resources\app\lib\Installer\Adapters\SetupEngineAdapter.js:746:45)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:109:7)]
+2018-04-10T17:19:20 : Verbose : Started the installed products provider service.
+2018-04-10T17:19:20 : Verbose : Started the setup updater service.
+2018-04-10T17:19:21 : Verbose : [ProductsProviderImpl]: Rpc connection was closed.
+2018-04-10T17:19:21 : Verbose : [ProductsProviderImpl]: Stream was closed
+2018-04-10T17:19:21 : Verbose : [InstalledProductsProviderImpl]: Rpc connection was closed.
+2018-04-10T17:19:21 : Verbose : [InstalledProductsProviderImpl]: Stream was closed
+2018-04-10T17:19:21 : Verbose : [InstallerImpl]: Rpc connection was closed.
+2018-04-10T17:19:21 : Verbose : [InstallerImpl]: Stream was closed
